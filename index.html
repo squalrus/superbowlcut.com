@@ -37,9 +37,9 @@
         h3,
         h4,
         h5,
-        h6 {
+        h6,
+        .large-text {
             font-family: 'Bungee', Arial, Helvetica, sans-serif;
-            ;
             text-align: center;
             padding: 0;
             margin: 0 0 15px;
@@ -48,6 +48,15 @@
         h1 {
             font-size: 60px;
             line-height: 1.2;
+        }
+
+        .large-text {
+            font-size: 40px;
+            line-height: 1.2;
+        }
+
+        .small-text {
+            font-size: 14px;
         }
 
         .section {
@@ -60,6 +69,7 @@
 
         .section--footer {
             margin-bottom: 0;
+            padding: 20px 30px;
         }
 
          .polaroid {
@@ -121,6 +131,7 @@
         <p>Highest bidder will give Chad a super bowl cut on Saturday, February 2nd 2019.</p>
         <img class="polaroid polaroid--main" src="chad.jpg" alt="" role="presentation" />
         <p>Chad will match the winning bid, up to $150. The proceeds will be donated to the <a href="https://www.phinneycenter.org/">Phinney Neighborhood Association</a>.</p>
+        <div class="large-text">Current total: $300</div>
     </div>
 
     <section class="section" aria-label="Current high bidder">
@@ -155,8 +166,8 @@
         </dl>
     </section>
 
-    <footer class="section section--footer" aria-label="">
-        <span>2019</span>
+    <footer class="section section--footer">
+        <span class="small-text">2019 | by Chad Schulz | <a href="https://github.com/squalrus/superbowlcut.com">GitHub</a></span>
     </footer>
 </body>
 
